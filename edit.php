@@ -110,7 +110,7 @@ while ($res = mysqli_fetch_array($result)) {
 				</tr>
 				<tr>
 					<td>Gambar</td>
-					<td><img width="80" src="image/<?php echo $image ?>"></td>
+					<td><img width="100" src="image/<?php echo $image ?>"></td>
 					<td><input type="file" name="newImage"></td>
 				</tr>
 				<tr>

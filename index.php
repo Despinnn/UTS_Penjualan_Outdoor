@@ -5,7 +5,6 @@ include_once("config.php");
 // AMBIL DATA DARI DATABASE BERDASARKAN DATA TERAKHIR DI INPUT
 $result = mysqli_query($mysqli, "SELECT * FROM users ORDER BY id DESC");
 ?>
-
 <html>
 
 <head>

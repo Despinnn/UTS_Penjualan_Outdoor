@@ -20,6 +20,7 @@ $result = mysqli_query($mysqli, "SELECT * FROM users ORDER BY id DESC");
 				</button></a>
 		</div>
 		</br>
+		<h3>Tabel Daftar Barang </h3>
 		<table width='60%' border=2>
 			<tr bgcolor='#FF7F00' align="center">
 
